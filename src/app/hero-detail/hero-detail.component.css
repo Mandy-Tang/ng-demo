@@ -1,0 +1,10 @@
+.detail_item {
+  display: flex;
+  margin: 1em;
+  align-items: center
+}
+.detail_item_label {
+  display: inline-flex;
+  flex: 0 0 4em;
+  color: #369;
+}
