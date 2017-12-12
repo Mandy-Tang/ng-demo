@@ -2,7 +2,7 @@
   list-style: none;
   width: 200px;
 }
-.heroes_item {
+.heroes_item a {
   display: flex;
   align-items: stretch;
   height: 2em;
