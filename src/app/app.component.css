@@ -1,28 +1,8 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-html, body {
-  font-size: 16px;
-  font-family: Cambria, Georgia;
-  color: #888;
-}
-h1, h2, h3 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-h1 {
-  font-size: 2rem;
+a {
+  display: inline-block;
+  padding: 0.5em;
+  border-radius: 2px;
   color: #369;
-}
-h2 {
-  font-size: 1.5rem;
-  color: #444;
-  font-weight: lighter;
-}
-h3 {
-  font-size: 1.2rem;
-  color: #444;
-  font-weight: lighter;
-}
-body {
-  margin: 2em;
+  background: lightgray;
+  text-decoration: none;
 }

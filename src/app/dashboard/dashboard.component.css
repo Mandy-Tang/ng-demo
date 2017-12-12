@@ -1,0 +1,12 @@
+.dashboard {
+  width: 100%;
+}
+.dashboard_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  margin-bottom: 1em;
+  background-color: #369;
+  color: white;
+}
