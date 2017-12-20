@@ -25,7 +25,12 @@ export class HeroDetailComponent implements OnInit {
   goBack(): void {
     this.location.back();
   }
-
+  save(): void {
+    this.heroService.updateHero(this.hero)
+      .subscribe(() => {
+        this.goBack();
+      });
+  }
   ngOnInit() {
     this.getHero();
   }
