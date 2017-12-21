@@ -53,6 +53,14 @@ export class HeroService {
       );
   }
 
+  createHero(hero: Hero): Observable<any> {
+    return this.http.post(this.heroesUrl, hero, httpOptions)
+      .pipe(
+        tap(_ => this.log(`create a new hero`)),
+        catchError(this.handleError<any>(`createHero`))
+      );
+  }
+
   constructor(
     private messageService: MessageService,
     private http: HttpClient) { }
