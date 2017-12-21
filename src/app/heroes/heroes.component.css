@@ -31,3 +31,6 @@
 .heroes_item__selected .heroes_item_name {
   background-color: lightblue;
 }
+.add-input {
+  margin: 1em 0.5em;
+}

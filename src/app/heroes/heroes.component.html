@@ -1,7 +1,8 @@
 <div>
-  <label> Hero Name
+  <div class="add-input">
+    <label>Hero Name</label>
     <input #heroName>
-  </label>
+  </div>
   <button (click)="createHero(heroName.value);heroName.value=''">Add</button>
 </div>
 <ul class="heroes">
