@@ -16,7 +16,7 @@ export class HeroService {
 
   private heroesUrl = 'api/heroes';
 
-  private log(message: String) {
+  private log(message: string) {
     this.messageService.add(`HeroService: ${message}`);
   }
 
@@ -36,7 +36,7 @@ export class HeroService {
       );
   }
 
-  getHero(id: Number): Observable<Hero> {
+  getHero(id: number): Observable<Hero> {
     const url = `${this.heroesUrl}/${id}`;
     return this.http.get<Hero>(url)
       .pipe(
